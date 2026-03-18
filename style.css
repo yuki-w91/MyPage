@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* 全体を横並び */
+.container {
+    display: flex;
+}
+
+/* 左メニュー */
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    color: rgb(7, 18, 88);
+    height: 100vh; /* 画面いっぱい */
+    padding: 20px;
+}
+
+.sidebar h2 {
+    background-color: #9eeef9;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    background-color: #333;
+}
+
+/* メインエリア */
+.content {
+    flex: 1;
+    padding: 30px;
+}
+
+.content h1 {
+    background-color: #9eeef9;
+    color: white;
+    padding: 10px;
+}
+
+.content img {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
