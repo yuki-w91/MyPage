@@ -117,11 +117,11 @@ height: 20px;
     font-weight: bold;
 }
 
-.content img {
+/*.content img {
     width: 100%;
     max-width: 800px;
     margin-top: 10px;
-}
+}*/
 
 .content ul{
     display: flex;
