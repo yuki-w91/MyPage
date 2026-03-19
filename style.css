@@ -128,3 +128,7 @@ height: 20px;
     max-width: 800px;
     margin-top: 10px;
 }
+
+.content ul{
+    display: flex;
+}
