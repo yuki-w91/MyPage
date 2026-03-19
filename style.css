@@ -67,7 +67,7 @@ h3{
     background-color: white;
     color: rgb(7, 18, 88);
     /*height: 100vh; /* 画面いっぱい */
-    /*padding: 15px;*/
+    padding: 0 15px;
 }
 
 /*.sidebar h2 {
