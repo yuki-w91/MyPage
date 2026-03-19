@@ -50,7 +50,7 @@ h3{
     display: flex;
     max-width: 1200px;  /*横幅制限*/
     margin: auto;       /*中央寄せ*/
-    padding: 0 20px;    /*左右余白*/
+    padding: 10px 20px;    /*左右余白*/
     align-items: flex-start;
 }
 
