@@ -59,6 +59,7 @@ h3{
     /*margin: auto;       /*中央寄せ*/
     /*padding: 10px 20px;    /*左右余白*/
     /*align-items: flex-start;*/
+    gap :20px;
 }
 
 /* 左メニュー */
