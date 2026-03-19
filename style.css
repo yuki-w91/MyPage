@@ -33,7 +33,7 @@ h3{
 }
 
 .title-right{
-    width:1;
+    flex:1;
     background-color: #a1e9f2;
     color: rgb(7, 18, 88);
     padding: 15px;
