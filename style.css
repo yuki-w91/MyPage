@@ -97,11 +97,11 @@ h3{
 /* メインエリア */
 .content {
     flex: 1;
-    padding: 20px 0;
+    padding: 0 0 0 30px
 }
 
 .content p{
-    margin-top: 10px;
+    margin-top: 0;
 }
 
 /*.content h2 {
