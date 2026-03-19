@@ -104,12 +104,6 @@ h3{
     margin-top: 0;
 }
 
-/*.content h2 {
-    background-color: #a1e9f2;
-    color: rgb(7, 18, 88);
-    padding: 15px;
-}*/
-
 .content h2{
     flex:1;
     background-color: #a1e9f2;
@@ -132,18 +126,20 @@ height: 20px;
 .content ul{
     display: flex;
     list-style: none;
+    gap:10px;
 }
 
 .content li:nth-child(1){
     flex:7;
 }
 
-.content li:nth-child(1){
+.content li:nth-child(2){
     flex:3;
 }
 
-.content li {
+.content ul li img {
     width: 100%;
     height :auto;
+    max-width: none;
 }
 
