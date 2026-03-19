@@ -109,7 +109,7 @@ h3{
     background-color: #a1e9f2;
     color: rgb(7, 18, 88);
     padding: 10px 15px;
-height: 20px;
+    height: 20px;
 
     display: flex;
     align-items: center;
@@ -123,25 +123,22 @@ height: 20px;
     margin-top: 10px;
 }*/
 
-.content ul{
+.lesson1{
     display: flex;
     list-style: none;
     gap:10px;
 
     align-items: flex-end;/*下揃え*/
-}
 
-.content li:nth-child(1){
-    flex:7;
-}
+    li:nth-child(1){
+    flex:7;}
 
-.content li:nth-child(2){
-    flex:3;
-}
+    li:nth-child(2){
+    flex:3;}
 
-.content ul li img {
+    img {
     width: 100%;
     height :auto;
-    max-width: none;
+    max-width: none;}
 }
 
