@@ -24,6 +24,8 @@ h3{
     padding: 0 20px;*/
     gap:20px;       /*20px分の余白*/
     margin-bottom: 10px;
+
+    align-items: stretch;
 }
 
 .title-left{
@@ -31,7 +33,6 @@ h3{
     background-color: #a1e9f2;
     color: rgb(7, 18, 88);
     padding: 10px 15px;
-    height: 20px;
 
     display: flex;
     align-items: center;
@@ -44,7 +45,6 @@ h3{
     background-color: #a1e9f2;
     color: rgb(7, 18, 88);
     padding: 10px 15px;
-    height: 20px;
 
     display: flex;
     align-items: center;
