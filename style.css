@@ -11,12 +11,19 @@ h3{
     margin:0 15px 15px 15px;
 }
 
+.contents{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+
 .header{
     display: flex;
-    max-width: 1080px;
+   /* max-width: 1080px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 20px;*/
     gap:20px;       /*20px分の余白*/
+    margin-bottom: 10px;
 }
 
 .title-left{
@@ -48,10 +55,10 @@ h3{
 /* 全体を横並び */
 .container {
     display: flex;
-    max-width: 1200px;  /*横幅制限*/
-    margin: auto;       /*中央寄せ*/
-    padding: 10px 20px;    /*左右余白*/
-    align-items: flex-start;
+    /*max-width: 1200px;  /*横幅制限*/
+    /*margin: auto;       /*中央寄せ*/
+    /*padding: 10px 20px;    /*左右余白*/
+    /*align-items: flex-start;*/
 }
 
 /* 左メニュー */
