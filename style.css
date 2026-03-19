@@ -11,7 +11,7 @@ h3{
     margin:0 15px 15px 15px;
 }
 
-.wrapper{
+.contents{
     max-width: 1200px;
     margin:0 auto;
     padding: 0 20px;
@@ -19,6 +19,9 @@ h3{
 
 .header{
     display: flex;
+   /* max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;*/
     gap:20px;       /*20px分の余白*/
     margin-bottom: 10px;
 }
@@ -27,23 +30,35 @@ h3{
     width:240px;
     background-color: #a1e9f2;
     color: rgb(7, 18, 88);
-    padding: 10px;
+    padding: 10px 15px;
+    height: 20px;
 
-   font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .title-right{
     flex:1;
     background-color: #a1e9f2;
     color: rgb(7, 18, 88);
-    padding: 10px;
+    padding: 15px;
+    height: 20px;
 
+    display: flex;
+    align-items: center;
+    font-size: 20px;
     font-weight: bold;
 }
 
 /* 全体を横並び */
-.layout {
+.container {
     display: flex;
+    /*max-width: 1200px;  /*横幅制限*/
+    /*margin: auto;       /*中央寄せ*/
+    /*padding: 10px 20px;    /*左右余白*/
+    /*align-items: flex-start;*/
     gap :20px;
 }
 
@@ -82,6 +97,7 @@ h3{
 /* メインエリア */
 .content {
     flex: 1;
+    padding: 20px 0;
 }
 
 .content p{
