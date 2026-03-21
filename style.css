@@ -70,7 +70,7 @@ h3{
     /*height: 100vh; /* 画面いっぱい */
     padding: 0 15px;
 
-    position : fixed;   /*位置固定*/
+    position : sticky;   /*位置固定*/
 
      ul {
     list-style: none;
