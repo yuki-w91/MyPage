@@ -142,3 +142,15 @@ h3{
     max-width: none;}
 }
 
+.lesson2{
+    display: flex;
+    list-style: none;
+    gap:10px;
+
+    align-items: flex-start;/*上揃え*/
+
+    img {
+    width: 80%;
+    height :auto;
+    max-width: none;}
+}
