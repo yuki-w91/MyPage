@@ -69,29 +69,22 @@ h3{
     color: rgb(7, 18, 88);
     /*height: 100vh; /* 画面いっぱい */
     padding: 0 15px;
-}
 
-/*.sidebar h2 {
-    background-color: #a1e9f2;
-    padding: 10px;
-    margin: 0 0 10px 0;
-}*/
+    position : fixed;   /*位置固定*/
 
-.sidebar ul {
+     ul {
     list-style: none;
     padding: 0;
-    margin:0;
-}
+    margin:0;}
 
-.sidebar li {
+    li {
     padding: 12px;
     border-bottom: 1px solid #bbe0f9;
     cursor: pointer;
-    font-size: 15px;
-}
+    font-size: 15px;}
 
-.sidebar li:hover {
-    background-color: #bbe0f9;
+     li:hover {
+    background-color: #bbe0f9;}
 }
 
 /* メインエリア */
