@@ -267,5 +267,11 @@ h3{
     img {
     width: 80%;
     height :auto;
-    max-width: none;}
+    max-width: 1200px;}
+}
+.lesson11{
+        text-align: center;
+        width: 60%;
+        height :auto;
+        max-width: 1200px;
 }
