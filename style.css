@@ -64,7 +64,8 @@ h3{
 
 /* 左メニュー */
 .sidebar {
-    width: 240px;
+    /*width: 240px;*/
+    flex:2;
     background-color: white;
     color: rgb(7, 18, 88);
     /*height: 100vh; /* 画面いっぱい */
@@ -94,7 +95,7 @@ h3{
 
 /* メインエリア */
 .content {
-    flex: 1;
+    flex: 8;
     padding: 0 0 0 30px
 }
 
