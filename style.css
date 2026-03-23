@@ -250,3 +250,22 @@ h3{
     height :auto;
     max-width: none;}
 }
+
+.lesson10{
+    display: flex;
+    list-style: none;
+    gap:10px;
+
+    align-items: flex-end;/*下揃え*/
+
+    li:nth-child(1){
+    flex:7;}
+
+    li:nth-child(2){
+    flex:3;}
+
+    img {
+    width: 80%;
+    height :auto;
+    max-width: none;}
+}
