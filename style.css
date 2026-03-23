@@ -193,6 +193,12 @@ h3{
 
     align-items: flex-start;/*上揃え*/
 
+    li:nth-child(1){
+    flex:4;}
+
+    li:nth-child(2){
+    flex:6;}
+
     img {
     width: 100%;
     height :auto;
