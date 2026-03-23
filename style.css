@@ -102,14 +102,12 @@ h3{
 
 .content p{
     margin-top: 0;
+}
 
-    large{
+ .content p .large{
     font-size: 180%;
     font-weight: bold;
     }
-}
-
-
 
 .content h2{
     flex:1;
