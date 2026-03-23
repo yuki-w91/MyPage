@@ -349,9 +349,9 @@ h3{
         max-width: none;
 }
 
-#page-top {
+.page-top {
     position: fixed;
-    right: 5px;
+    right: 20px;
     bottom: 20px;
     height: 50px;
     text-decoration: none;
@@ -363,7 +363,7 @@ h3{
     padding: 0 0 0 35px;
     border-top: solid 1px;
 }
-#page-top::before {
+.page-top::before {
     content: "";
     display: block;
     position: absolute;
