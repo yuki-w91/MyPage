@@ -199,10 +199,10 @@ h3{
     align-items: flex-start;/*上揃え*/
 
     li:nth-child(1){
-    flex:4;}
+    flex:3;}
 
     li:nth-child(2){
-    flex:6;}
+    flex:7;}
 
     img {
     width: 100%;
@@ -240,10 +240,10 @@ h3{
     align-items: flex-start;/*上揃え*/
 
     li:nth-child(1){
-    flex:4;}
+    flex:3;}
 
     li:nth-child(2){
-    flex:6;}
+    flex:7;}
 
     img {
     width: 100%;
@@ -254,7 +254,7 @@ h3{
 .lesson10{
     display: flex;
     list-style: none;
-    gap:10px;
+    gap:5px;
 
     align-items: flex-end;/*下揃え*/
 
@@ -269,6 +269,7 @@ h3{
     height :auto;
     max-width: none;}
 }
+
 .lesson11{
         text-align: center;
         width: 60%;
@@ -287,4 +288,11 @@ h3{
     width: 70%;
     height :auto;
     max-width: none;}
+}
+
+.lesson11{
+        text-align: center;
+        width: 70%;
+        height :auto;
+        max-width: none;
 }
