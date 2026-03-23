@@ -64,8 +64,8 @@ h3{
 
 /* 左メニュー */
 .sidebar {
-    /*width: 240px;*/
-    flex:2;
+    flex:3;
+    min-width: 140px;
     background-color: white;
     color: rgb(7, 18, 88);
     /*height: 100vh; /* 画面いっぱい */
@@ -82,7 +82,7 @@ h3{
     padding: 12px;
     border-bottom: 1px solid #bbe0f9;
     cursor: pointer;
-    font-size: 15px;}
+    font-size: 12px;}
 
      li:hover {
     background-color: #bbe0f9;}
@@ -95,7 +95,7 @@ h3{
 
 /* メインエリア */
 .content {
-    flex: 8;
+    flex: 7;
     padding: 0 0 0 30px
 }
 
