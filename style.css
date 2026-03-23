@@ -310,3 +310,37 @@ h3{
     height :auto;
     max-width: none;}
 }
+
+.lesson15{
+    display: flex;
+    list-style: none;
+    gap:5px;
+
+    align-items: flex-start;/*上揃え*/
+
+    img {
+    width: 70%;
+    height :auto;
+    max-width: none;}
+}
+
+.lesson16{
+        text-align: center;
+        width: 70%;
+        height :auto;
+        max-width: none;
+}
+
+.lesson17{
+        text-align: center;
+        width: 70%;
+        height :auto;
+        max-width: none;
+}
+
+.lesson18{
+        text-align: center;
+        width: 70%;
+        height :auto;
+        max-width: none;
+}
