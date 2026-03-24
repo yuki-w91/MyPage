@@ -219,22 +219,26 @@ h3{
 }
 
 .lesson6{
-    text-align: center;
+    display: block;
+    margin: 0 auto;
 
         width: 70%;
         height :auto;
         max-width: none;
 }
 
+
 .lesson7{
-    text-align: center;
-        width: 70%;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
         height :auto;
         max-width: none;
 }
 
 .lesson8{
-    text-align: center;
+    display: block;
+    margin: 0 auto;
         width: 70%;
         height :auto;
         max-width: none;
@@ -299,7 +303,8 @@ h3{
 }
 
 .lesson13{
-        text-align: center;
+    display: block;
+    margin: 0 auto;
         width: 70%;
         height :auto;
         max-width: none;
@@ -325,28 +330,38 @@ h3{
 
     align-items: flex-start;/*上揃え*/
 
+    li:nth-child(1){
+    flex:3;}
+
+    li:nth-child(2){
+    flex:7;
+    }
+
     img {
-    width: 70%;
+    width: 80%;
     height :auto;
     max-width: none;}
 }
 
 .lesson16{
-        text-align: center;
+    display: block;
+    margin: 0 auto;
         width: 70%;
         height :auto;
         max-width: none;
 }
 
 .lesson17{
-        text-align: center;
+    display: block;
+    margin: 0 auto;
         width: 70%;
         height :auto;
         max-width: none;
 }
 
 .lesson18{
-        text-align: center;
+    display: block;
+    margin: 0 auto;
         width: 70%;
         height :auto;
         max-width: none;
