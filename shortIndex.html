@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>RabbitRush_Short</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="shortStyle.css">
     </head>
     <body>
     
@@ -20,11 +20,7 @@
                     <!--<h2>RabbitRush</h2>*/-->
                     <ul>
                         <li><a href=#link1>完成版で遊んでみよう</a></li>
-                        <li><a href=#link2>プレイヤーを描画しよう</a></li>
-                        <li><a href=#link3>ステージを描画しよう</a></li>
                         <li><a href=#link4>プレイヤーを動かそう</a></li>
-                        <li><a href=#link5>プレイヤーを前進させよう</a></li>
-                        <li><a href=#link6>プレイヤーにアニメーションをつけよう</a></li>
                         <li><a href=#link7>カメラでプレイヤーを追いかけよう</a></li>
                         <li><a href=#link8>障害物を設置しよう</a></li>
                         <li><a href=#link9>当たり判定をつけよう</a></li>
@@ -33,7 +29,6 @@
                         <li><a href=#link12>アイテム(にんじん)を集めよう</a></li>
                         <li><a href=#link13>無限生成ステージを作ろう</a></li>
                         <li><a href=#link14>UIを描画しよう</a></li>
-                        <li><a href=#link15>リトライ機能を実装しよう</a></li>
                         <li><a href=#link16>衝突時エフェクトを出そう</a></li>
                         <li><a href=#link17>道の周りを整えよう</a></li>
                         <li><a href=#link18>オリジナルステージを作ってみよう</a></li>
@@ -55,55 +50,14 @@
                     <p>ゲームを終了するときは「▶」をもう一度押してゲーム終了</p>
             </section>
 
-            <section id="link2">
-            <h2>プレイヤーを描画しよう</h2>
-                <p>プロジェクトビューのAssetsフォルダ -> Sceneフォルダ -> MainSceneをダブルクリック<br>
-                    ヒエラルキービューのPlayerを左クリックで選択<br>
-                    右側インスペクタービュー上側、Playerと書いてある左側のチェックボックスをクリック
-                </p>  
-                <ul class="lesson2">
-                    <li><img src="RunGame/image/2-1-pl.png" alt="説明画像pl"></li>
-                    <li><img src="RunGame/image/2-2-pl.png" alt="説明画像pl"></li>
-                </ul>
-            </section>
-
-            <section id="link3">
-            <h2>ステージを描画しよう</h2>
-                <p>ヒエラルキービューのStartStageを左クリックで選択<br>
-                    右側インスペクタービュー上側、StartStageと書いてある左側のチェックボックスをクリック
-                </p>
-                <ul class="lesson3">
-                    <li><img src="RunGame/image/2-1.png" alt="説明画像stage"></li>
-                    <li><img src="RunGame/image/2-2-stage.png" alt="説明画像stage"></li>
-                </ul>
-            </section>
-
             <section id="link4">
             <h2>プレイヤーを動かそう</h2>
                 <p>PlayerオブジェクトにPlayerInputスクリプトをアタッチ<br>
                     プレイヤーが動くことを確認しよう</p>
                     <ul class="lesson4">
-                    <li><img src="RunGame/image/3-1.png" alt="説明画像3"></li>
+                    <li><img src="RunGame/image/ShortImage/s3-1.png" alt="説明画像3"></li>
                     <li><img src="RunGame/image/1-2.png" alt="説明画像操作"></li>
                 </ul>
-            </section>
-
-            <section id="link5">
-            <h2>プレイヤーを前進させよう</h2>
-                <p>Assetsフォルダ -> Scriptsフォルダ -> [PlayerInput]をダブルクリック<br>
-                    プレイヤーを前進させる処理を入力してみよう</p>
-                    <ul class="lesson5">
-                    <li><img src="RunGame/image/4-1.png" alt="説明画像5"></li>
-                    <li><img src="RunGame/image/4-2.png" alt="説明画像5"></li>
-                </ul>            
-            </section>
-
-            <section id="link6">
-            <h2>プレイヤーにアニメーションをつけよう</h2>
-                <p>Assetsフォルダ -> Scriptsフォルダ -> [PlayerInput]をダブルクリック<br>
-                    プレイヤーのアニメーションを再生する処理を入力してみよう</p>
-                    
-                    <img class="lesson6" src="RunGame/image/5-1.png" alt="説明画像操作">
             </section>
 
             <section id="link7">
@@ -126,22 +80,13 @@
 
             <section id="link9">
             <h2>当たり判定をつけよう</h2>
-                <p>Assetsフォルダ -> Scriptsフォルダ -> [HitCheck]をダブルクリック<br>
-                    プレイヤーが障害物に当たったときの判定を入力してみよう</p>
+                <p>ヒエラルキービューのPlayer左側 「▶」 を押して広げる<br>
+                    Playerの下にあるDamageHitCheckerを左クリックで選択<br>
+                    右側インスペクタービュー上側、DamageHitCheckerと書いてある左側のチェックボックスをクリック</p>
                     <ul class="lesson9">
-                    <li><img src="RunGame/image/8-1.png" alt="説明画像8"></li>
-                    <li><img src="RunGame/image/8-2.png" alt="説明画像8"></li>
+                    <li><img src="RunGame/image/ShortImage/s8-1.png" alt="説明画像8"></li>
+                    <li><img src="RunGame/image/ShortImage/s8-2.png" alt="説明画像8"></li>
                 </ul>    
-            </section>
-
-            <section id="link10">
-            <h2>プレイヤーの移動速度を調節しよう</h2>
-                <p>PlayerのインスペクタービューのPlayerMoveスクリプトの値を変更<br>
-                    遊びやすい移動速度とジャンプの高さに調節しよう</p>
-                    <ul class="lesson10">
-                    <li><img src="RunGame/image/9-2.png" alt="説明画像2"></li>
-                    <li><img src="RunGame/image/9-1.png" alt="説明画像操作"></li>
-                </ul>
             </section>
 
             <section id="link11">
@@ -179,15 +124,6 @@
                         <li><img src="RunGame/image/13-2.png" alt="説明画像stage"></li>
                 </ul>
 
-            </section>
-            <section id="link15">
-            <h2>リトライ機能を実装しよう</h2>
-                <p>Assetsフォルダ -> Scriptsフォルダ -> [PlayerInput]をダブルクリック<br>
-                ゲームオーバー時スペースキーでリトライできるようにしよう </p>
-                    <ul class="lesson15">
-                        <li><img src="RunGame/image/4-1.png" alt="説明画像stage"></li>
-                        <li><img src="RunGame/image/14-2.png" alt="説明画像stage"></li>
-                </ul>
             </section>
 
             <section id="link16">            
